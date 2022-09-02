@@ -1,3 +1,5 @@
+using Bussiness;
+using Data;
 using Microsoft.EntityFrameworkCore;
 using Person_CRUD.Models;
 
@@ -6,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<IPersonManager , PersonManager>();
+builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
