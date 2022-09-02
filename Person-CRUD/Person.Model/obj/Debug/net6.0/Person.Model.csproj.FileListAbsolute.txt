@@ -1,0 +1,14 @@
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\bin\Debug\net6.0\Person.Model.deps.json
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\bin\Debug\net6.0\Person.Model.runtimeconfig.json
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\bin\Debug\net6.0\Person.Model.dll
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\bin\Debug\net6.0\Person.Model.pdb
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.csproj.AssemblyReference.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.AssemblyInfoInputs.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.AssemblyInfo.cs
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.csproj.CoreCompileInputs.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.dll
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\refint\Person.Model.dll
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.pdb
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\Person.Model.genruntimeconfig.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Model\obj\Debug\net6.0\ref\Person.Model.dll

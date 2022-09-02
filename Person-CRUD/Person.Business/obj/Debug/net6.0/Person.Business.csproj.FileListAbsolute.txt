@@ -1,0 +1,14 @@
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\bin\Debug\net6.0\Person.Business.deps.json
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\bin\Debug\net6.0\Person.Business.runtimeconfig.json
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\bin\Debug\net6.0\Person.Business.dll
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\bin\Debug\net6.0\Person.Business.pdb
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.csproj.AssemblyReference.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.AssemblyInfoInputs.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.AssemblyInfo.cs
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.csproj.CoreCompileInputs.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.dll
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\refint\Person.Business.dll
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.pdb
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\Person.Business.genruntimeconfig.cache
+C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Business\obj\Debug\net6.0\ref\Person.Business.dll
