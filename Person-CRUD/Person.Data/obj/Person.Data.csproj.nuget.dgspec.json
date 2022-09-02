@@ -1,103 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj": {}
+    "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj": {
+    "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj",
-        "projectName": "Person.Common",
-        "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj",
-        "packagesPath": "C:\\Users\\Haroon ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Haroon ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.8, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj",
         "projectName": "Person.Data",
-        "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj",
+        "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj",
         "packagesPath": "C:\\Users\\Haroon ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\obj\\",
+        "outputPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Haroon ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,106 +27,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.8, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj",
-        "projectName": "Person.Model",
-        "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj",
-        "packagesPath": "C:\\Users\\Haroon ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Haroon ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj"
-              },
-              "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
-                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

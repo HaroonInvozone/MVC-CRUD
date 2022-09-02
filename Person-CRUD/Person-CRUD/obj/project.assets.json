@@ -787,11 +787,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
-          "Person.Common": "1.0.0",
-          "Person.Data": "1.0.0",
-          "Person.Model": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
         },
         "compile": {
           "bin/placeholder/Person.Common.dll": {}
@@ -804,11 +800,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
-          "Person.Common": "1.0.0",
-          "Person.Data": "1.0.0",
-          "Person.Model": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
         },
         "compile": {
           "bin/placeholder/Person.Data.dll": {}
@@ -821,11 +813,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
-          "Person.Common": "1.0.0",
-          "Person.Data": "1.0.0",
-          "Person.Model": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
         },
         "compile": {
           "bin/placeholder/Person.Model.dll": {}
@@ -2073,7 +2061,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj",
+      "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
@@ -2088,11 +2076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person-CRUD\\Person-CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person-CRUD\\Person-CRUD.csproj",
       "projectName": "Person-CRUD",
-      "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person-CRUD\\Person-CRUD.csproj",
+      "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person-CRUD\\Person-CRUD.csproj",
       "packagesPath": "C:\\Users\\Haroon ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person-CRUD\\obj\\",
+      "outputPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person-CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Haroon ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2109,17 +2097,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": {
-              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj"
+            "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": {
+              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj"
             },
-            "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj": {
-              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Common\\Person.Common.csproj"
+            "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Common\\Person.Common.csproj": {
+              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Common\\Person.Common.csproj"
             },
-            "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
-              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Data\\Person.Data.csproj"
+            "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
+              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj"
             },
-            "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
-              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj"
+            "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
+              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj"
             }
           }
         }
@@ -2178,17 +2166,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Person-CRUD -> Person.Common -> Person.Common.",
-      "libraryId": "Person.Common",
+      "message": "Unable to find project 'C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj",
       "targetGraphs": [
         "net6.0"
       ]

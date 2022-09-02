@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ESvY/RBXd5SzJJ5njO+VlH8cxP8SuvWFHbRopQbJ9RbzMCLA4amR1xOrJu80aOO3E37LUXumhi2Qh6AgBNl+w==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Model\\Person.Model.csproj",
+  "dgSpecHash": "AjbiE3NTlSICVaYHuFX8Xy5WWZgdILRUIQEbNKxgcEqUHi+PaBY8vT9y1yqUd1D55BwVV8om4QNmTaVivAoQAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Haroon ali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Haroon ali\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -48,24 +48,5 @@
     "C:\\Users\\Haroon ali\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\Haroon ali\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Haroon ali\\Desktop\\MVC\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Person.Model -> Person.Model.",
-      "libraryId": "Person.Model",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

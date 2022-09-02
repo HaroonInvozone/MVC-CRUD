@@ -17,18 +17,4 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\Person.Business\Person.Bussiness.csproj">
-			<GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-		</ProjectReference>
-		<ProjectReference Include="..\Person.Common\Person.Common.csproj">
-			<GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-		</ProjectReference>
-		<ProjectReference Include="..\Person.Data\Person.Data.csproj">
-			<GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-		</ProjectReference>
-		<ProjectReference Include="..\Person.Model\Person.Model.csproj">
-			<GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-		</ProjectReference>
-	</ItemGroup>
 </Project>
