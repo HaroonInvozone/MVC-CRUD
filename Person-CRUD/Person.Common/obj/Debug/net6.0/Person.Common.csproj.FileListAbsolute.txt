@@ -12,3 +12,17 @@ C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Common\obj\Debug\net6.0\refin
 C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.pdb
 C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.genruntimeconfig.cache
 C:\Users\Haroon ali\Desktop\MVC\Person-CRUD\Person.Common\obj\Debug\net6.0\ref\Person.Common.dll
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\bin\Debug\net6.0\Person.Common.deps.json
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\bin\Debug\net6.0\Person.Common.runtimeconfig.json
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\bin\Debug\net6.0\Person.Common.dll
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\bin\Debug\net6.0\Person.Common.pdb
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.csproj.AssemblyReference.cache
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.AssemblyInfoInputs.cache
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.AssemblyInfo.cs
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.csproj.CoreCompileInputs.cache
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.dll
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\refint\Person.Common.dll
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.pdb
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\Person.Common.genruntimeconfig.cache
+C:\Users\Haroon ali\Desktop\MVC_Person\Person-CRUD\Person.Common\obj\Debug\net6.0\ref\Person.Common.dll

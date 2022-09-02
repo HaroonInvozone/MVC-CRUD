@@ -783,6 +783,19 @@
           }
         }
       },
+      "Person.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Person.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Person.Business.dll": {}
+        }
+      },
       "Person.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2043,6 +2056,11 @@
         "version.txt"
       ]
     },
+    "Person.Business/1.0.0": {
+      "type": "project",
+      "path": "../Person.Business/Person.Business.csproj",
+      "msbuildProject": "../Person.Business/Person.Business.csproj"
+    },
     "Person.Common/1.0.0": {
       "type": "project",
       "path": "../Person.Common/Person.Common.csproj",
@@ -2061,10 +2079,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
+      "Person.Business >= 1.0.0",
       "Person.Common >= 1.0.0",
       "Person.Data >= 1.0.0",
       "Person.Model >= 1.0.0"
@@ -2097,8 +2115,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj": {
-              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj"
+            "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Business.csproj": {
+              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Business.csproj"
             },
             "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Common\\Person.Common.csproj": {
               "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Common\\Person.Common.csproj"
@@ -2161,16 +2179,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Business\\Person.Bussiness.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

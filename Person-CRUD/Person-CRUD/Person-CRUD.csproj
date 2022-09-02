@@ -19,7 +19,7 @@
     </PackageReference>
   </ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\Person.Business\Person.Bussiness.csproj">
+		<ProjectReference Include="..\Person.Business\Person.Business.csproj">
 			<GlobalPropertiesToRemove></GlobalPropertiesToRemove>
 		</ProjectReference>
 		<ProjectReference Include="..\Person.Common\Person.Common.csproj">
