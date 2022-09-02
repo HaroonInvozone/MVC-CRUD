@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Bussiness;
+using Microsoft.AspNetCore.Mvc;
 using Person_CRUD.Models;
 using System.Diagnostics;
 
@@ -7,26 +8,45 @@ namespace Person_CRUD.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IPersonManager _personManager;
+        public HomeController(ILogger<HomeController> logger, IPersonManager personManager)
         {
             _logger = logger;
+            _personManager = personManager;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
+        {
+            var list = await _personManager.GetAll();
+            return View(list);
+        }
+        [HttpGet]
+        public async Task<IActionResult> Create()
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        [HttpPost]
+        public async Task<IActionResult> Create(Person person)
         {
-            return View();
+            await _personManager.CreatePerson(person);
+            return RedirectToAction("Index", "Home");
         }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var resut = await _personManager.GetById(id);
+            return View(resut);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(Person person)
+        {
+            await _personManager.UpdatePerson(person);
+            return RedirectToAction("Index", "Home");
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _personManager.Delete(id);
+            return RedirectToAction("Index", "Home");
         }
     }
 }

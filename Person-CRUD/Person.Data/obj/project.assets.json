@@ -782,6 +782,19 @@
             "rid": "win"
           }
         }
+      },
+      "Person.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Person.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Person.Model.dll": {}
+        }
       }
     }
   },
@@ -2003,13 +2016,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Person.Model/1.0.0": {
+      "type": "project",
+      "path": "../Person.Model/Person.Model.csproj",
+      "msbuildProject": "../Person.Model/Person.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
+      "Person.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2038,7 +2057,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
+              "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

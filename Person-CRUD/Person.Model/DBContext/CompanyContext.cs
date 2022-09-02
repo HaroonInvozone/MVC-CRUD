@@ -11,7 +11,7 @@ namespace Person_CRUD.Models
             : base(options)
         {
         }
-        public virtual DbSet<Person> People { get; set; } = null!;
+        public virtual DbSet<Person> Persons { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
