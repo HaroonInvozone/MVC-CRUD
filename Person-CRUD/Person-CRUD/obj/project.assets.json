@@ -787,7 +787,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
+          "Person.Data": "1.0.0",
+          "Person.Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Person.Business.dll": {}
@@ -813,7 +815,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
+          "Person.Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Person.Data.dll": {}

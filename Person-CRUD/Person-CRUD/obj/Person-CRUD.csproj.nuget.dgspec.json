@@ -116,7 +116,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj": {
+                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Data\\Person.Data.csproj"
+              },
+              "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
+                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -262,7 +269,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj": {
+                "projectPath": "C:\\Users\\Haroon ali\\Desktop\\MVC_Person\\Person-CRUD\\Person.Model\\Person.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
