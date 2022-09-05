@@ -23,7 +23,7 @@ namespace Data
         }
         public async Task<bool> CreatePerson(Person person) {
             _db.Persons.Add(person);
-            _db.SaveChanges();
+            _db.SaveChangesAsync();
             return true;
         }
         public async Task<Person> GetById(int id)
@@ -35,17 +35,17 @@ namespace Data
         {
             var data = await _db.Persons.FindAsync(id);
             _db.Persons.Remove(data);
-            _db.SaveChanges();
+            _db.SaveChangesAsync();
             return true;
         }
 
         public async Task<bool> UpdatePerson(Person person)
         {
-            var data = await  _db.Persons.Where(x => x.Id == person.Id).FirstOrDefaultAsync();
+            var data = await _db.Persons.FindAsync(person.Id);
             data.Age = person.Age;
             data.FirstName = person.FirstName;
             data.LastName = person.LastName;
-            _db.SaveChanges();
+            _db.SaveChangesAsync();
             return true;
         }
     }
